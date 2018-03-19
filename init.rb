@@ -14,7 +14,7 @@ Redmine::Plugin.register :redmine_my_page do
   description 'Adds additional options to the My Page of users.\nCustom Queries and Activities ( filtered ) will be shown in a single page.'
   version '0.1.13'
 
-  requires_redmine :version_or_higher => '3.4.0'
+  requires_redmine :version_or_higher => '3.3.0'
 
   settings :default => { 'my_activity_enable' => 0, 'homelink_override' => 1 },
             :partial => 'settings/my_page_option_settings'
